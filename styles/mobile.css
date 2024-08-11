@@ -28,3 +28,52 @@
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
 }
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-color: var(--Very-dark-blue);
+    padding: 3rem 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.Jeremy {
+    width: 95%;
+}
+
+.Jeremy img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.Jeremy ul {
+    list-style: none;
+}
+
+.Jeremy li:first-child {
+    color: var(--Pale-Blue);
+}
+
+.Jeremy li:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.jtop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--Desaturated-blue);
+    height: 120px;
+    border-radius: 10px;
+}
