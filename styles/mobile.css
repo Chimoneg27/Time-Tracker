@@ -46,6 +46,9 @@ body {
 
 .Jeremy {
     width: 95%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
 .Jeremy img {
@@ -55,15 +58,15 @@ body {
     border-radius: 100%;
 }
 
-.Jeremy ul {
+.jtop ul {
     list-style: none;
 }
 
-.Jeremy li:first-child {
+.jtop li:first-child {
     color: var(--Pale-Blue);
 }
 
-.Jeremy li:nth-child(2) {
+.jtop li:nth-child(2) {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
@@ -74,6 +77,32 @@ body {
     justify-content: center;
     gap: 1rem;
     background-color: var(--Desaturated-blue);
-    height: 120px;
+    height: 140px;
     border-radius: 10px;
+    position: relative;
+
+}
+
+.timeline {
+    background-color: var(--Dark-blue);
+    /* width: 95%; */
+    z-index: -1;
+    margin-top: -1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.timeline ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0.5rem;    
+    width: 100%;
+    padding: 1.25rem;
+    font-size: 1rem;
+    color: var(--Pale-Blue);
 }
