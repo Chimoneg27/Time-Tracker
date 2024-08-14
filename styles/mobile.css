@@ -37,11 +37,10 @@ body {
     width: 100%;
     background-color: var(--Very-dark-blue);
     padding: 3rem 0.5rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr repeat(6, 1fr);
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Jeremy {
