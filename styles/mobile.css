@@ -105,12 +105,14 @@ body {
 
 #cards {
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     align-items: center;
     justify-items: center;
+    position: relative;
+    z-index: 3;
 }
 
 .activity {
@@ -122,6 +124,25 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    position: relative;
+    border-radius: 10px;
+}
+
+.cardTop {
+    height: 100px;
+    padding: 1rem;
+    background-color: var(--Light-red);
+    margin-top: -3.5rem;
+    position: absolute;
+    width: 99%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.cardTop:first-child {
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .activity ul {
