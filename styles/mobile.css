@@ -100,7 +100,7 @@ body {
     width: 100%;
     padding: 1.25rem;
     font-size: 1rem;
-    color: var(--Pale-Blue);
+    color: var(--Desaturated-blue);
 }
 
 #cards {
@@ -127,6 +127,22 @@ body {
 .activity ul {
     list-style: none;
     display: flex;
+    align-items: center;
     width: 90%;
     justify-content: space-between;
+}
+
+.task li:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.duration li:first-child {
+    color: white;
+    font-size: 2.25rem;
+}
+
+.duration li:nth-child(2) {
+    color: var(--Desaturated-blue);
 }
