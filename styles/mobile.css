@@ -168,3 +168,11 @@ body {
 .duration li:nth-child(2) {
     color: var(--Desaturated-blue);
 }
+
+.week {
+    display: none;
+}
+
+.monthly {
+    display: none;
+}
