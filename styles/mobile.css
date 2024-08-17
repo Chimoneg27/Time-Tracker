@@ -111,6 +111,7 @@ body {
     grid-template-rows: auto;
     align-items: center;
     justify-items: center;
+    gap: 4rem;
     position: relative;
     z-index: 3;
 }
