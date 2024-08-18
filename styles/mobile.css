@@ -138,12 +138,37 @@ body {
     width: 99%;
     z-index: -1;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .cardTop:first-child {
     background-image: url(../images/icon-work.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
+}
+
+.activity:nth-child(2) .cardTop {
+    background-image: url(../images/icon-play.svg);
+    background-color: var(--Soft-blue);
+}
+
+.activity:nth-child(3) .cardTop {
+    background-image: url(../images/icon-study.svg);
+    background-color: var(--Light-red);
+}
+
+.activity:nth-child(4) .cardTop {
+    background-image: url(../images/icon-exercise.svg);
+    background-color: var(--Lime-green);
+}
+
+.activity:nth-child(5) .cardTop {
+    background-image: url(../images/icon-social.svg);
+    background-color: var(--Violet);
+}
+
+.activity:nth-child(6) .cardTop {
+    background-image: url(../images/icon-self-care.svg);
+    background-color: var(--Soft-orange);
 }
 
 .activity ul {
