@@ -81,7 +81,6 @@ body {
 
 .timeline {
     background-color: var(--Dark-blue);
-    /* width: 95%; */
     z-index: -1;
     margin-top: -1rem;
     border-radius: 10px;
@@ -200,4 +199,13 @@ body {
 
 .monthly {
     display: none;
+}
+
+.timeline ul li:hover {
+    cursor: pointer;
+    color: white; 
+}
+
+.timeline ul li:active {
+    color: white;
 }
