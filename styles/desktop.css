@@ -28,7 +28,7 @@
     .activity {
         width: 90%;
         height: 65%;
-        padding: 1rem;
+        padding: 0.25rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
