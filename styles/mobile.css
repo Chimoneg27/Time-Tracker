@@ -209,3 +209,14 @@ body {
 .timeline ul li:active {
     color: white;
 }
+
+.attribution {
+    margin: 0 auto;
+    color: white;
+    width: 60%;
+}
+
+.attribution p {
+    margin: 0 auto;
+    text-align: center;
+}
